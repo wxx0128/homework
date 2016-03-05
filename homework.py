@@ -1,0 +1,1 @@
+print filter(lambda y:all(y % x is not 0 for x in xrange(2,y-1)),xrange(2,10000))
